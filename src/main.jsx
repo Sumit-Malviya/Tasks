@@ -6,6 +6,7 @@ import './index.css'
 import TodoList from './TodoList.jsx'
 import HobbyList from './HobbyPractise.jsx'
 import { ToastContainer } from 'react-toastify'
+import HobbiesFiller from './HobbyFillerOptimized.jsx'
 
 
 
@@ -21,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<> <ToastContainer
   draggable
   pauseOnHover
   theme="dark"/> 
-  < HobbyList/>
+  < HobbiesFiller/>
   </>)
  // <React.StrictMode>
  {/* </React.StrictMode>, */}
