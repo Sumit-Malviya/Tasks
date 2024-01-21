@@ -6,7 +6,7 @@ import "./index.css";
 // import TodoList from './TodoList.jsx'
 // import HobbyList from './HobbyPractise.jsx'
 // import { ToastContainer } from 'react-toastify'
-// import HobbiesFiller from './HobbyFillerOptimized.jsx'
+import HobbiesFiller from "./HobbyFillerOptimized.jsx";
 // import EventHandling from './Event.jsx'
 // import EventBind from './EventBind.jsx'
 // import Mounting from './ComponentLifecycle/Mounting.jsx'
@@ -15,11 +15,13 @@ import "./index.css";
 import ProfileObj from "./useState/nonPrimitive.jsx";
 import RegistrationForm from "./RegistrationFC.jsx";
 import HobbiesFunc from "./staleClosure/prevState.jsx";
+import ShowProducts from "./NetworkingAPI/API.jsx";
+import APICalling from "./NetworkingAPI/TaskAPI.jsx";
+import ChipComponent from "./Task-4/ChipComponent.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    {" "}
-    <RegistrationForm />
+    <ChipComponent />
   </>
 );
 
