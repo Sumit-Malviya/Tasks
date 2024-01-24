@@ -18,10 +18,13 @@ import HobbiesFunc from "./staleClosure/prevState.jsx";
 import ShowProducts from "./NetworkingAPI/API.jsx";
 import APICalling from "./NetworkingAPI/TaskAPI.jsx";
 import ChipComponent from "./Task-4/ChipComponent.jsx";
+import AppRouter from "./Day-10 Routing/AppRoute.jsx";
+// import Products from "./Task-5/DynamicRouting.jsx";
+import ProductRouter from "./Task-5/ProductRoute.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <ChipComponent />
+    <ProductRouter />
   </>
 );
 
